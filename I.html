@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="CSS/H.css">
+        
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+     <title>C.B.N PROJECT</title>
+	
+	
+</head>
+<body>
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen' ></i>
+           <span class="logo navLogo"><a href="H.html">
+	<img src="photo/download_1.gif" height=122px width=218px ></a></span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">EGLISE_C.B.N</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                   
+				   <a href="CBN.html">
+					<span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  C.B.N
+  </a></li>
+                    
+  
+					
+					 <a href="#K">
+				 <span></span>
+	             <span></span>
+                    
+				<span></span>
+				<span></span>
+				<span></span>
+                    PROJETS</a></li>
+                  <a href="#K">
+					<span></span>
+					<span></span>
+				    <span></span>
+					<span></span>
+					EFISH</a></li>
+					
+					<a href="don.html">
+					<span></span>
+					<span></span>
+				    <span></span>
+					<span></span>
+					DON</a></li>
+                   
+				   
+				
+                </ul>
+            </div>
+
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+
+                <div class="searchBox">
+                   <div class="searchToggle">
+                    <i class='bx bx-x cancel'></i>
+                    <i class='bx bx-search search'></i>
+                   </div>
+
+                    <div class="search-field">
+                        <input type="text" placeholder="Search...">
+                        <i class='bx bx-search'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<script>
+
+const body = document.querySelector("body"),
+      nav = document.querySelector("nav"),
+      modeToggle = document.querySelector(".dark-light"),
+      searchToggle = document.querySelector(".searchToggle"),
+      sidebarOpen = document.querySelector(".sidebarOpen"),
+      siderbarClose = document.querySelector(".siderbarClose");
+
+      let getMode = localStorage.getItem("mode");
+          if(getMode && getMode === "dark-mode"){
+            body.classList.add("dark");
+          }
+
+// js code to toggle dark and light mode
+      modeToggle.addEventListener("click" , () =>{
+        modeToggle.classList.toggle("active");
+        body.classList.toggle("dark");
+
+        // js code to keep user selected mode even page refresh or file reopen
+        if(!body.classList.contains("dark")){
+            localStorage.setItem("mode" , "light-mode");
+        }else{
+            localStorage.setItem("mode" , "dark-mode");
+        }
+      });
+
+// js code to toggle search box
+        searchToggle.addEventListener("click" , () =>{
+        searchToggle.classList.toggle("active");
+      });
+ 
+      
+//   js code to toggle sidebar
+sidebarOpen.addEventListener("click" , () =>{
+    nav.classList.add("active");
+});
+
+body.addEventListener("click" , e =>{
+    let clickedElm = e.target;
+
+    if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")){
+        nav.classList.remove("active");
+    }
+});
+
+
+
+</script>
+
+<br><br><br><br><br>
+<link rel="stylesheet" href="CSS/T.css">
+<div class="video-container">
+   <center><video autoplay muted controls loop width=60% height=20% src="photo/FIN_KENI_FINAL.mp4">Ici la description alternative</video></center>
+   <br><center><img src="photo/C.B.N_project.png" height=100px width=410px ></center></a>    
+   
+     <center><font size="7"><h6> Pour sauver la<span style="background:#FFA500"> JEUNESSE</span> en changeant leurs <span style="background:#00FF00">vies</span> ! ! !</h6></center></font>
+   <BR><BR><BR>
+   
+   
+ <link rel="stylesheet" href="CSS/O.css">
+<div class="text-responsive">
+<center><h2><font size="6" face="Arial">Notre <span style="background:#40E0D0">SITE</span> a pour objectif <span style="background:#EE82EE">d'encrer</span> les jeunes dans la 
+<span style="background:#EE82EE">foi</span> pour les rapprocher du Seigneur en <span style="background:#00FF00">mode 2.0</span> ! ! !</h2></font></center>
+
+<br><center><font size="6"><a href="#J">En savoir plus</a></font></center>
+
+<link rel="stylesheet" href="CSS/T.css">
+<center><h2 style="color:black;"><h2 id="J"><br><br><br><br><font size="6">Pourquoi <span style="background:#49FF66">soutenir</span> les <span style="background:#49FF66">projets</span> de l'église C.B.N ?</font></h2>
+<br><font size="5"<h2 style="color:Tomato;" face="cursive;"> <h2>Notre site est actif car nous préparons de nombreux projets pour la JEUNESSE ! 
+<br><br>Ci-dessous, découvrez les 3 objectifs de projet que nous voulons réaliser pour la JEUNESSE :</h2></font></center>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="CSS/I.css" type="text/css">
+</head>
+<body>
+ 
+ <section class="services">
+    <div class="container">
+       <div class="row">
+          
+       </div>
+       <div class="row">
+          <div class="service-items">
+              <div class="row">
+                 <!-- item start -->
+                 <div class="item">
+                    <div class="item-inner">
+					<img src="photo/phone.png" height=170px width=100%>
+                       <h3><center>EGLISE C.B.N</h3>
+					   
+                       <center><p>1. Développer des jeux et animations chrétiennes</p></center>
+                       <div class="read-more-cont">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusm.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusm.</p>
+                          
+                       </div>
+                       <button class="btn" type="button">EN SAVOIR PLUS</button>
+                    </div>
+                 </div>
+                 <!-- item end -->
+                 <!-- item start -->
+                 <div class="item">
+                    <div class="item-inner">
+					<img src="photo/GROUP.png" height=245px >
+                       <h3><center>EGLISE C.B.N</center></h3>
+                       <center><p>2. Recruter des équipiers !</p></center>
+                       <div class="read-more-cont">
+                         <center><p><b><font size="4">*</font>&nbsp;L'eglise C.B.N se distingue des autres</b> 
+						 par son <span style="background:#40E0D0">travail</span> sur des <span style="background:#FFD700">projets innovants</span>
+						 et <span style="background:#EE82EE">"dernier cri"</span> pour amener le plus de 
+						 gens possible dont la <span style="background:#00FF00">JEUNESSE</span> à connaitre <span style="background:#FFA500">JESUS</span>.
+<br><br><br><b><font size="4">*</font>&nbsp;Nous devons</b> <b>recruter des équipiers pour commencer et finaliser les projets en cours et à venir</b> 
+mais aussi, pour faire <span style="background:#FF7F50">vivre</span> notre SITE et <span style="background:#00FF00">ses projets</span> sur le 
+<span style="background:#FFFF00">long terme</span> .
+<br><br><br>Nous recherchons donc à <span style="background:#00FF7F">recruter</span> des <span style="background:#FFFF00">profils compétents</span>
+ dans différents <span style="background:#FF69B4">secteurs</span> :<br>
+
+<br><font size="4">*</font>&nbsp;<span style="background:#C0C0C0">Le Développement Web:</span>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<u>Minimum :</u> HTML, CSS, JavaScript
+<br>-&nbsp;<u>Facultatif</u> : SQL, Python, PHP
+
+<br><br><font size="4">*</font>&nbsp;<span style="background:#C0C0C0">Le Montage vidéo :</span> 
+<br>-&nbsp;<u>Minimum</u>:Capcut
+
+<br><br><font size="4">*</font>&nbsp;<span style="background:#C0C0C0">Le Graphisme:</span>
+
+<br><br>-&nbsp; Maîtriser les dessins, les caractères typographiques, les photos, les couleurs
+<br><br>-&nbsp;<u> Minimum</u>: Maîtriser ces logiciels de graphisme : Adobe Photoshop, Adobe Illustrator, GIMP, Adobe Indesign, After Effects 
+<br><br>-&nbsp;<u>Minimum</u>: Maîtriser un logiciel d'animation : Blender 
+
+<br><br><font size="4">*</font>&nbsp;<span style="background:#C0C0C0">Les Réseaux sociaux:</span> 
+<br> Parfaite maitrise des Réseaux Sociaux:
+
+<br><br> YouTube, Facebook, Instagram, WhatsApp
+
+<br><br>SINON :
+
+<br><br>==>&nbsp;Tu peux être "membre du (nom)" (en présentiel):
+<br><br>Si les profils ci-dessus ne vous correspondent pas, 
+vous pouvez simplement faire partie de notre groupe de jeune (nom a chercher) 
+et nous aider pour les événements à l'église: cultes, séminaires, "pubs chrétiens"
+
+
+<br><br>==>&nbsp;Tu peux être "membre du (nom)" (en distanciel):
+
+</p></center>
+
+
+                         
+                       </div>
+                       <button class="btn" type="button">EN SAVOIR PLUS</button>
+                    </div>
+                 </div>
+                 <!-- item end -->
+                 <!-- item start -->
+                 <div class="item">
+                    <div class="item-inner">
+					 <img src="photo/lieux.png" height=242px width=100%>
+                       <h3>EGLISE C.B.N</h3>
+					  
+          
+                       <center><p>3. Avoir des lieux chrétiens !</p></center>
+                       <div class="read-more-cont">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusm.</p>
+                       </div>
+                       <button class="btn" type="button">EN SAVOIR PLUS</button>
+                    </div>
+                 </div>
+                 <!-- item end -->
+              </div>
+          </div>
+       </div>
+    </div>
+ </section>
+
+  <!-- read more popup box start -->
+   <div class="popup-box">
+      <div class="popup-content">
+          <div class="popup-header">
+             <h3></h3>
+             <span class="popup-close-icon">&times;</span>
+          </div>
+          <div class="popup-body">
+            
+          </div>
+          <div class="popup-footer">
+            <button class="btn popup-close-btn">Close</button>
+          </div>
+      </div>
+   </div>
+  <!-- read more popup box end -->
+
+
+<script src="JS/script.js"></script>
+
+
+<center><img src="photo/^.png" height=60px width=60px><font size="7"></font><br><a href="index.html">&nbsp;&nbsp;&nbsp;&nbsp;REMONTER</a></center>
+
+ 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+
+
+  </div>
+</body>
+</html>
+	
+	<html>
+	<link rel="stylesheet" href="CSS/pied.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	</head>
+	<body>
+	
+	<footer class="footer">
+	<div class="container">
+	<div class="row">
+	<div class="footer-col">
+	<h5>l'Eglise C.B.N</h5>
+	<ul>
+	<li></a></li>
+
+	<li><a href="#">Adresse</a></li>
+	<li><a href="#">Aide ?</a></li>
+	</ul>
+	</div>
+	<div class="footer-col">
+	<h5>VOUS SOUHAITEZ...</h5>
+	<ul>
+	<li><a href="#"> DON</a></li>
+	<li><a href="#">Participer</a></li>
+    <li><a href="#">Contacter</a></li>
+	
+	
+	</ul>
+	</div>
+	<div class="footer-col">
+	<h5>A PROPOS</h5>
+	<ul>
+	<li><a href="#">Mission</a></li>
+	<li><a href="#">Confidentialité</a></li>
+	<li><a href="#">Conditions G</a></li>
+	<li><a href="#">Cookies</a></li>
+	
+	
+	</ul>
+	</div>
+	<div class="footer-col">
+	<h5>SUIVEZ-NOUS SUR...</h5>
+	
+	<center><BR><div class="fab fa-twitter"></div><a href="L.html"><font size="3">CBN@TWITTER</a><br>
+	<center><BR><div class="fab fa-instagram"></div><a href="L.html"><font size="3">CBN@INSTAGRAM</a><br>
+	<center><BR><div class="fab fa-facebook"></div><a href="L.html"><font size="3">CBN@FACEBOOK</a><br>
+	
+	</html>
+	</div>
+	<br>
+	
+	<link rel="stylesheet" href="css/new 1.css">
+	<!-- Fontawesome CDN Link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+	<footer>
+	</ul>
+	</div>
+	</div>
+	
+	<center><font color="black">©2024 Eglise C.B.N- Tous droits réservés- <u>Notions légales</u>-<u>Données personnelles</u></center>
+	
+	</footer>
+	
+	
+	</div>
+	
+	
+	</body>
+	</html>
+
+
+</body>
+</html>
